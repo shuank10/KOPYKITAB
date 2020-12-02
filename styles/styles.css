@@ -1,0 +1,157 @@
+
+body {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+
+}
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+div {
+    display: block;
+}
+
+.container {
+    width: 76%;
+  height: auto;
+  float:center;
+  /* text-align:left; */
+  margin: auto;
+  margin-top: 4rem;
+  clear: both;
+  padding: 60px 2rem 80px 2rem;
+  -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+background-color: white;
+border-radius: 4px;
+font-size: 16px;
+}
+img {
+    border:  1px solid #f4f4f4;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+.row{
+    align-content: center;
+    padding: 10px 4px;
+}
+
+.author-name{
+    color: #fe5b06;
+    font-size: 0.9rem;
+}
+.mrp{
+    color: red;
+    font-size: 0.9rem;
+}
+.mrp-text{
+    text-decoration: line-through;
+}
+
+.discount{
+    color: green;
+    font-size: 0.9rem;
+}
+
+.fa-eye{
+    color:balck
+}
+hr.first{
+    border-top: 1px solid #f4f4f4;
+}
+
+.Download-button{
+        margin: 2% 3% 2% 0;
+        padding: 3%;
+        text-align: center;
+}
+
+.btn1{
+    color: #fe5b06;
+    border-radius: 0.4rem;
+}
+.btn1:hover{
+    /* -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.1); */
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    background-color: white;
+    color: #fe5b06;
+}
+
+.btn2{
+    background-color: #fe5b06;
+    border-radius: 0.4rem;
+}
+
+.btn2:hover{
+    /* -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.1); */
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    background-color: #fe5b06;
+    
+}
+
+.icon{
+    color: #fe5b06;
+}
+
+.discount-row{
+    background-color: #fffbe0;
+    border-radius: 6px;
+    margin: 14px 0 8px 0;
+    box-shadow: 0 0 1px 0.1px rgba(0,0,0,.34);
+}
+.dr1{
+    padding: 10px;
+    border-bottom: 1px solid #FFF3AA;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.dr11{
+    margin-right: 8px;
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: #fe5b06;
+}
+
+.dr12{
+    margin-right: 8px;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: #fe5b06;
+}
+
+.dr13{
+    margin-right: 8px;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color:  grey;
+}
+
+.product-spec{
+    margin-right: 8px;
+    font-size: 0.6rem;
+    font-weight: lighter;
+    color: grey;
+}
+
+table, th, td {
+    border:1px solid grey;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .otherPart{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float:right;
+    justify-content: center;
+  }
